@@ -1,0 +1,184 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDM_ABOUT DIALOG  0, 0, 252, 62
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         134,IDC_STATIC,"Static",SS_BITMAP,7,7,238,49
+END
+
+IDD_HELP DIALOGEX 0, 0, 455, 356
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "FreeSnap Help"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Donate",IDOK,398,334,50,14
+    LTEXT           "Win + I\t\t\tsnap top\rWin + K\t\t\tsnap bottom\rWin + J\t\t\tsnap left\rWin + L\t\t\tsnap right\r\rWin + T\t\t\tmove to top-left corner\rWin + Y\t\t\tmove to top-right corner\rWin + G\t\t\tmove to bottom-left corner\rWin + H\t\t\tmove to bottom-right corner\r\rWin + C\t\t\tcenter window/next ?",IDC_KEYMAP,238,55,202,229
+    LTEXT           "FreeSnap™ 1.5.3",IDC_TITLE,13,6,142,15
+    LTEXT           "Copyright © 2009, Blue Onion Software, All rights reserved",IDC_STATIC,13,24,192,8
+    GROUPBOX        "Standard Keys",IDC_NORMALKEYS,7,41,216,280
+    GROUPBOX        "Alternate Keys",IDC_ALTERNATEKEYS,231,41,216,280
+    LTEXT           "Win + ?\t\tsnap top\rWin + ?\t\tsnap bottom\rWin + ?\t\tsnap left\rWin + ?\t\tsnap right\r\rWin + Home\t\tmove to top-left corner\rWin + PgUp\t\tmove to top-right corner\rWin + End\t\tmove to bottom-left corner\rWin + PgDn\t\tmove to bottom-right corner\r\rWin + 5\t\t\tcenter window/n ?",IDC_KEYMAP2,14,55,202,265
+    LTEXT           "Note: Standard keys work with NumLock on or off",IDC_STATIC,14,326,202,8
+    PUSHBUTTON      "&Help",IDC_HELPME,337,334,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,2,0
+ PRODUCTVERSION 1,5,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Send comments to mike@blueonionsoftware.com"
+            VALUE "CompanyName", "Blue Onion Software"
+            VALUE "FileDescription", "FreeSnap 1.5.2"
+            VALUE "FileVersion", "1.5.2"
+            VALUE "InternalName", "FreeSnap 1.5.12"
+            VALUE "LegalCopyright", "Copyright © 2009, Blue Onion Software, All rights reserved"
+            VALUE "LegalTrademarks", "FreeSnap is a trademark of Blue Onion Software"
+            VALUE "OriginalFilename", "FreeSnap.exe"
+            VALUE "PrivateBuild", "4 June 2009"
+            VALUE "ProductName", "FreeSnap"
+            VALUE "ProductVersion", "1.5.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDM_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 348
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP                  "freesnap.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_FREESNAP            ICON                    "fs.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

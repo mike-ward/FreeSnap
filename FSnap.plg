@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FSnap - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP31E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "_USRDLL" /D "FSNAP_EXPORTS" /D "WIN32" /D "_WINDOWS" /D _WIN32_WINNT=0x501 /Fp"Debug/FSnap.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\FreeSnap\FSnap.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP31E.tmp" 
+Creating temporary file "C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP31F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /dll /incremental:yes /pdb:"Debug/FSnap.pdb" /debug /machine:I386 /out:"Debug/FSnap.dll" /implib:"Debug/FSnap.lib" /pdbtype:sept 
+.\Debug\FSnap.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP31F.tmp"
+<h3>Output Window</h3>
+Compiling...
+FSnap.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP320.bat" with contents
+[
+@echo off
+copy debug\fsnap.dll \freesnap\debug\fsnap.dll /y
+]
+Creating command line "C:\DOCUME~1\mrward\LOCALS~1\Temp\RSP320.bat"
+
+The file cannot be copied onto itself.
+        0 file(s) copied.
+Error executing c:\winnt\system32\cmd.exe.
+
+
+
+<h3>Results</h3>
+FSnap.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

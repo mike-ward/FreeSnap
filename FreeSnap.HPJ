@@ -1,0 +1,18 @@
+[OPTIONS]
+COMPRESS=24
+ERRORLOG=errlog.txt
+LCID=0x0409 0x0 0x0
+REPORT=Yes
+CONTENTS=
+TITLE=FreeSnap
+CNT=C:\Documents and Settings\Michael\My Documents\FreeSnap\FreeSnap.CNT
+HLP=C:\Documents and Settings\Michael\My Documents\FreeSnap\FreeSnap.HLP
+BMROOT=C:\DOCUME~1\Michael\LOCALS~1\Temp\
+
+[MAP]
+
+[FILES]
+C:\Documents and Settings\Michael\My Documents\FreeSnap\FreeSnap.RT2
+
+[CONFIG]
+BrowseButtons()
