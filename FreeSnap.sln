@@ -1,19 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSnap", "FSnap.vcproj", "{B1FD2C69-0751-4EE8-B822-A862EE245CDF}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSnap", "FSnap.vcxproj", "{B1FD2C69-0751-4EE8-B822-A862EE245CDF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeSnap", "FreeSnap.vcproj", "{5C4FBB2A-CD58-4D4A-A34E-D69B7CD580BF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B1FD2C69-0751-4EE8-B822-A862EE245CDF} = {B1FD2C69-0751-4EE8-B822-A862EE245CDF}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeSnap", "FreeSnap.vcxproj", "{5C4FBB2A-CD58-4D4A-A34E-D69B7CD580BF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Donate", "Donate\Donate.vcproj", "{7A1E9417-151D-4A25-995C-E2F33E045B2F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Donate", "Donate\Donate.vcxproj", "{7A1E9417-151D-4A25-995C-E2F33E045B2F}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
@@ -48,5 +43,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
